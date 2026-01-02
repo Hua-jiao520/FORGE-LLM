@@ -139,6 +139,119 @@ from os.path import join
 # print(str5)
 
 
-# 字符串长度
-str='hello world'
-print(len(str))
+# # 字符串长度
+# str='hello world'
+# print(len(str))
+
+
+
+# #
+# # 列表
+
+# # 创建列表
+# list1 = []
+# list2 = [1,'a',list1]
+# print(list1)
+# print(list2)
+#
+# # 转化
+# str1='abc'
+# list2 = list(str1)
+# print(list2)
+
+# 解析创建
+# squares2=[]
+# for value in range(1,5):
+#     squares2.append(value**2)
+# print(squares2)
+#
+#
+# squares3=[value**2 for value in range(1,5)]
+# print(squares3)
+
+
+# # 增
+# list4=[]
+# list4.append(1)
+# print(list4)
+#
+# list5=list4.insert(0,3)
+# print(list5)
+# # 输出结果为：None，原因：没有理解 列表中insert的真正用法， insert 是对原有的列表进行修改，返回值是空的
+# print(list4)
+# # 输出结果为：[3, 1]
+
+
+
+# #删 pop del remove
+
+# # 通过索引删除
+# list6=[1,2,3,4,5]
+# list6.pop()
+# print(list6)
+# list6.pop(2)
+# print(list6)
+#
+# del list6[0]
+# print(list6)
+#
+# # 通过值删除
+# list6.remove(2)
+# print(list6)
+
+
+
+# # 改 通过索引改
+# list7=[1,2,3,4,5]
+# list7[0]=10
+# print(list7)
+#
+# # 查 通过索引查
+# list7=[1,2,3,4,5]
+# print(list7[3])
+
+
+# # 切片
+# list8=[1,2,3,4,5]
+# list9 = list8[0:2]
+# print(list9)
+# # 将 list8的所有数据赋值给 list10
+# list10=list8[:]
+# print(list10)
+# # 注意这里不是左闭右开，这里是把后边的值全取到，输出结果为：[3, 4, 5]
+# list11=list10[2:]
+# print(list11)
+#
+# list12=list8[:2]
+# print(list8)
+# print(list12)
+
+#
+# # 遍历
+# list8=[1,2,3,4,5]
+# for i in list8:
+#     print(i)
+
+# 长度
+list8=[1,2,3,4,5]
+print(len(list8))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
