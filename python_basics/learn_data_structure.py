@@ -21,11 +21,11 @@ from os.path import join
 # print(f"2个字符串是同一个对象吗？{str} is {str2}")
 
 
-# join 添加
+## join 添加
 # parts=[]
 # for i in range(10):
 #     # TypeError: sequence item 0: expected str instance, int found 报错信息
-#     # parts.append(i)
+#     parts.append(i)
 #     # IndexError: string index out of range
 #     # parts.append(str[i])
 #     # 目的是需要将数字转换为字符串，所以这里要用 str()方法
@@ -109,7 +109,7 @@ from os.path import join
 # for i in str:
 #     print(i)
 
-# 修改
+# #修改
 
 # # 修改方式 1：创建新字符串，通过+拼接切片进行连接
 # str='hello world'
@@ -117,7 +117,7 @@ from os.path import join
 # str3=str2+str[1:12]
 # print(str3)
 
-# 修改方式 2: 转换为列表，在转换为字符串
+# #修改方式 2: 转换为列表，在转换为字符串
 # str='hello world'
 # list = list(str)
 # list[0]='H'
@@ -232,7 +232,7 @@ from os.path import join
 # for i in list8:
 #     print(i)
 
-# 长度
+# #长度
 list8=[1,2,3,4,5]
 print(len(list8))
 
